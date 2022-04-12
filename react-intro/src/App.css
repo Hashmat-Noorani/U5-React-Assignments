@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+#container {
+  width: 500px;
+  margin-left: 100px;
+}
+.circle {
+  list-style: circle;
+}
+.square {
+  list-style: square;
+}
+.disc {
+  list-style: disc;
+}
+nav {
+  padding: 15px;
+  background: black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+nav h1 {
+  color: white;
+}
+nav > div:nth-child(2) {
+  display: flex;
+  width: 250px;
+  color: gray;
+  justify-content: space-around;
+}
+button {
+  padding: 10px 30px;
+  border-radius: 15px;
+  border: none;
+  background: teal;
+}
