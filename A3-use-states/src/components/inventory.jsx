@@ -1,5 +1,5 @@
 import { useState } from "react";
-
+import "./inventory.css";
 export const Inventory = () => {
   const [books, setBooks] = useState(10);
   const [notebooks, setNotebooks] = useState(13);
