@@ -1,7 +1,4 @@
-import { useState } from "react";
-
-export const Counter = () => {
-  const [counter, setCounter] = useState(0);
+export const Counter = ({ counter, setCounter }) => {
   function updateCount(val) {
     setCounter(counter + val);
   }

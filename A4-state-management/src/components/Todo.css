@@ -1,0 +1,9 @@
+h3 {
+  color: white;
+}
+.completed {
+  background-color: white;
+  border-radius: 8px;
+  margin: 10px 0;
+  text-decoration: line-through;
+}

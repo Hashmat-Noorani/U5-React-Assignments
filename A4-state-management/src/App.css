@@ -1,0 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+  background: teal;
+}
+.App {
+  width: 400px;
+  height: 100vh;
+  margin: auto;
+  padding: 50px;
+}

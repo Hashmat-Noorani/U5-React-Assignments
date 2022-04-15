@@ -1,0 +1,21 @@
+.input {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin: 15px 0;
+}
+input {
+  background: white;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 15px;
+  border: none;
+  border-radius: 8px;
+}
+button {
+  background: white;
+  border: none;
+  font-weight: bolder;
+  padding: 15px 20px;
+  border-radius: 8px;
+}
