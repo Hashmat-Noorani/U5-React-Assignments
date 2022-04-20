@@ -1,0 +1,86 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  padding: 20px;
+}
+.card {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.card .top {
+  padding: 10px;
+  display: flex;
+  gap: 10px;
+}
+.card img {
+  width: 100%;
+  height: 100%;
+}
+.left {
+  flex: 1;
+}
+.mid {
+  flex: 2;
+}
+.right {
+  text-align: end;
+  flex: 0.8;
+}
+.gray {
+  color: gray;
+  font-weight: bold;
+}
+p {
+  margin: 2px 0;
+  font-size: small;
+}
+.bottom {
+  display: flex;
+  justify-content: end;
+  border-top: 1px solid lightgray;
+}
+.bottom button {
+  border: none;
+  border-left: 0.5px solid green;
+  color: green;
+  padding: 10px 20px;
+}
+h4 {
+  color: maroon;
+}
+.rating {
+  margin-left: 35px;
+  padding: 5px;
+  font-weight: bold;
+  border-radius: 5px;
+  background: green;
+  color: white;
+  text-align: center;
+}
+.pagination {
+  display: flex;
+  justify-content: space-around;
+}
+.filters {
+  display: flex;
+  justify-content: flex-end;
+  gap: 30px;
+  padding: 20px;
+}
+.filters select {
+  padding: 10px;
+  border-radius: 2px;
+  border: 1px solid green;
+}
+.pagination button {
+  border: none;
+  padding: 10px 20px;
+  border-radius: 15px;
+  background: none;
+  border: 1px solid green;
+  cursor: pointer;
+}
+.pagination button:hover {
+  background: green;
+  color: white;
+}

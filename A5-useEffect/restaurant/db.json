@@ -1,0 +1,102 @@
+{
+  "restaurants": [
+    {
+      "id": 1,
+      "name": "The Bombay Canteen",
+      "imgUrl": "https://www.eatthis.com/wp-content/uploads/sites/4/2020/01/chicken-tikka-masala.jpg?quality=82&strip=1",
+      "payment_methods": {
+        "online": false,
+        "cash": true
+      },
+      "rating": 4.3,
+      "votes": 400,
+      "reviews": 520,
+      "cost_for_one": 300,
+      "categories": ["Desserts", "Pizza", "Asian"]
+    },
+    {
+      "id": 2,
+      "name": "Indian Accent",
+      "imgUrl": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2017/10/3/0/FNM_110117-Insert-Opener-2_s4x3.jpg.rend.hgtvcom.616.462.suffix/1507047894789.jpeg",
+      "payment_methods": {
+        "online": true,
+        "cash": false
+      },
+      "rating": 1.6,
+      "votes": 600,
+      "reviews": 540,
+      "cost_for_one": 600,
+      "categories": ["Desserts", "Kulfis", "Wines"]
+    },
+    {
+      "id": 3,
+      "name": "Indian Accent",
+      "imgUrl": "https://sandinmysuitcase.com/wp-content/uploads/2021/01/Popular-Indian-Food-Dishes.jpg.webp",
+      "payment_methods": {
+        "online": true,
+        "cash": false
+      },
+      "rating": 3.6,
+      "votes": 600,
+      "reviews": 540,
+      "cost_for_one": 600,
+      "categories": ["Desserts", "Kulfis", "Wines"]
+    },
+    {
+      "id": 4,
+      "name": "Indian Accent",
+      "imgUrl": "https://sandinmysuitcase.com/wp-content/uploads/2021/01/Popular-Indian-Food-Dishes.jpg.webp",
+      "payment_methods": {
+        "online": true,
+        "cash": false
+      },
+      "rating": 2,
+      "votes": 600,
+      "reviews": 540,
+      "cost_for_one": 320,
+      "categories": ["Desserts", "Kulfis", "Wines"]
+    },
+    {
+      "id": 5,
+      "name": "Indian Accent",
+      "imgUrl": "https://sandinmysuitcase.com/wp-content/uploads/2021/01/Popular-Indian-Food-Dishes.jpg.webp",
+      "payment_methods": {
+        "online": true,
+        "cash": false
+      },
+      "rating": 4,
+      "votes": 60,
+      "reviews": 540,
+      "cost_for_one": 120,
+      "categories": ["Desserts", "Kulfis", "Wines"]
+    },
+    {
+      "id": 6,
+      "name": "Indian Accent",
+      "imgUrl": "https://sandinmysuitcase.com/wp-content/uploads/2021/01/Popular-Indian-Food-Dishes.jpg.webp",
+      "payment_methods": {
+        "online": true,
+        "cash": false
+      },
+      "rating": 4.6,
+      "votes": 600,
+      "reviews": 540,
+      "cost_for_one": 190,
+      "categories": ["Desserts", "Kulfis", "Wines"]
+    },
+    {
+      "id": 7,
+      "name": "Indian Accent",
+      "imgUrl": "https://sandinmysuitcase.com/wp-content/uploads/2021/01/Popular-Indian-Food-Dishes.jpg.webp",
+      "payment_methods": {
+        "online": true,
+        "cash": false
+      },
+      "rating": 1.9,
+      "votes": 600,
+      "reviews": 540,
+      "cost_for_one": 600,
+      "categories": ["Desserts", "Kulfis", "Wines"]
+    }
+  ]
+}
