@@ -1,0 +1,60 @@
+{
+  "users": [
+    {
+      "name": "Hashmat Noorani",
+      "age": "11",
+      "address": "12",
+      "id": 1
+    },
+    {
+      "name": "Hashmat Noorani",
+      "age": "11",
+      "address": "jamia",
+      "id": 2
+    },
+    {
+      "name": "Shakir Manzoor Wani",
+      "age": "27",
+      "address": "Baramulla",
+      "id": 3
+    },
+    {
+      "name": "Hashmat wani",
+      "address": "0, Jamia Baramulla, Jamia Baramulla",
+      "age": "22",
+      "department": "arts",
+      "salary": "120000",
+      "marital_state": "unmarried",
+      "id": 4
+    },
+    {
+      "name": "Hashmat wani",
+      "address": "0, Jamia Baramulla, Jamia Baramulla",
+      "age": "123",
+      "department": "commerce",
+      "salary": "12",
+      "marital_status": "unmarried",
+      "id": 5
+    },
+    {
+      "name": "Hashmat wani",
+      "address": "0, Jamia Baramulla, Jamia Baramulla",
+      "id": 6
+    },
+    {
+      "name": "Hashmat wani",
+      "address": "0, Jamia Baramulla, Jamia Baramulla",
+      "id": 7
+    },
+    {
+      "name": "Hashmat wani",
+      "address": "0, Jamia Baramulla, Jamia Baramulla",
+      "id": 8
+    },
+    {
+      "name": "Hashmat wani",
+      "address": "0, Jamia Baramulla, Jamia Baramulla",
+      "id": 9
+    }
+  ]
+}

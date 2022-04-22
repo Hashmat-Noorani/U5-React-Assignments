@@ -3,8 +3,8 @@ import "./App.css";
 
 function App() {
   const [counter, setCounter] = useState(0);
-  const [startCounter, setStartCounter] = useState();
-  const [endCounter, setEndCounter] = useState();
+  const [startCounter, setStartCounter] = useState(0);
+  const [endCounter, setEndCounter] = useState(0);
 
   useEffect(() => {
     let interval = setInterval(() => {
