@@ -25,7 +25,10 @@ function App() {
           path={"/employees"}
           element={<EmployeeList data={data} />}
         ></Route>
-        <Route path={"/employeedetails"} element={<EmployeeDetails />}></Route>
+        <Route
+          path={"/employeedetails/:id"}
+          element={<EmployeeDetails />}
+        ></Route>
       </Routes>
     </div>
   );

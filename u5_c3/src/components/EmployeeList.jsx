@@ -17,7 +17,7 @@ export const EmployeeList = ({ data }) => {
       {data.map((el) => (
         <div
           onClick={() => {
-            navigate("/employeedetails");
+            navigate(`/employeedetails/${el.id}`);
           }}
           key={nanoid()}
           className="employee_card"
