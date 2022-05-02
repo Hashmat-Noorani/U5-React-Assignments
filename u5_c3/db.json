@@ -129,6 +129,31 @@
       "tasks": ["in meeting"],
       "status": "working",
       "team": "backend"
+    },
+    {
+      "employee_name": "Hashmat",
+      "employee_id": "11",
+      "title": "Jr Software Developer",
+      "salary": "100000",
+      "image": "https://thumbs.dreamstime.com/b/rainbow-love-heart-background-red-wood-60045149.jpg",
+      "username": "hashmat",
+      "password": "wani",
+      "tasks": ["fixing bugs, working on service"],
+      "status": "working",
+      "team": "frontend",
+      "id": 11
+    },
+    {
+      "employee_name": "zakir",
+      "title": "Sr Software Developer",
+      "salary": "11",
+      "image": "https://www.holidify.com/images/bgImages/SRINAGAR.jpg",
+      "username": "zakir",
+      "password": "wani",
+      "tasks": ["fixing bugs, working on service"],
+      "status": "working",
+      "team": "backend",
+      "id": 12
     }
   ]
 }

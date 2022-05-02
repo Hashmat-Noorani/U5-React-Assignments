@@ -34,21 +34,56 @@ export const Home = ({ getdata }) => {
 
   return (
     <>
-      <h3 className="welcome">Welcome To employee management system</h3>
-      <div className="home">
+      <h3
+        style={{
+          textAlign: "center",
+        }}
+        className="welcome"
+      >
+        Welcome To employee management system
+      </h3>
+      <div
+        className="home"
+        style={{
+          width: "400px",
+          textAlign: "center",
+          margin: "10px auto",
+        }}
+      >
         <span>Stats</span>
-        <div>
+        <hr />
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "space-between",
+          }}
+        >
           Total Employees:
           <span className="totalemp">{employeeList.length}</span>
         </div>
-        <div>
-          Total Terminated:{" "}
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "space-between",
+          }}
+        >
+          Total Terminated:
           <span className="total_terminated">{terminated}</span>
         </div>
-        <div>
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "space-between",
+          }}
+        >
           Total Promoted: <span className="total_promoted">{promoted}</span>
         </div>
-        <div>
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "space-between",
+          }}
+        >
           Total New: <span className="total_new">{newEmployee}</span>
         </div>
       </div>

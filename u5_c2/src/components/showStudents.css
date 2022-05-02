@@ -1,0 +1,10 @@
+.controls {
+  display: flex;
+  justify-content: center;
+  margin: 40px auto;
+}
+
+table {
+  margin: auto;
+  border: 3px solid red;
+}
